@@ -1,12 +1,12 @@
 Summary:	X.org video driver for Rendition/Micron video chips
 Summary(pl):	Sterownik obrazu X.org dla uk³adów graficznych Rendition/Micron
 Name:		xorg-driver-video-rendition
-Version:	4.0.1.1
+Version:	4.0.1.3
 Release:	0.1
 License:	MIT
 Group:		X11/Applications
-Source0:	http://xorg.freedesktop.org/releases/X11R7.0-RC3/driver/xf86-video-rendition-%{version}.tar.bz2
-# Source0-md5:	97a1cc4ebe5d340e44234d3abbc500b5
+Source0:	http://xorg.freedesktop.org/releases/X11R7.0/src/driver/xf86-video-rendition-%{version}.tar.bz2
+# Source0-md5:	b69d578591f3ece72e844a5bb22674f7
 URL:		http://xorg.freedesktop.org/
 BuildRequires:	autoconf >= 2.57
 BuildRequires:	automake
@@ -57,7 +57,7 @@ rm -rf $RPM_BUILD_ROOT
 
 %files
 %defattr(644,root,root,755)
-%doc ChangeLog README
+%doc COPYING ChangeLog README
 %attr(755,root,root) %{_libdir}/xorg/modules/drivers/rendition_drv.so
 %{_libdir}/xorg/modules/v10002d.uc
 %{_libdir}/xorg/modules/v20002d.uc
