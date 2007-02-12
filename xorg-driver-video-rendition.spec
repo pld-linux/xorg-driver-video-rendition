@@ -1,5 +1,5 @@
 Summary:	X.org video driver for Rendition/Micron video chips
-Summary(pl):	Sterownik obrazu X.org dla uk³adów graficznych Rendition/Micron
+Summary(pl.UTF-8):   Sterownik obrazu X.org dla ukÅ‚adÃ³w graficznych Rendition/Micron
 Name:		xorg-driver-video-rendition
 Version:	4.1.3
 Release:	1
@@ -26,9 +26,9 @@ X.org video driver for Rendition/Micron video chips. It supports PCI
 and AGP video cards based on the following chips: Verite V1000, Verite
 V2100, Verite V2200.
 
-%description -l pl
-Sterownik obrazu X.org dla uk³adów graficznych Rendition/Micron.
-Obs³uguje karty PCI i AGP oparte na nastêpuj±cych uk³adach: Verite
+%description -l pl.UTF-8
+Sterownik obrazu X.org dla ukÅ‚adÃ³w graficznych Rendition/Micron.
+ObsÅ‚uguje karty PCI i AGP oparte na nastÄ™pujÄ…cych ukÅ‚adach: Verite
 V1000, Verite V2100, Verite V2200.
 
 %prep
