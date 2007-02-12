@@ -1,5 +1,5 @@
 Summary:	X.org video driver for Rendition/Micron video chips
-Summary(pl.UTF-8):   Sterownik obrazu X.org dla układów graficznych Rendition/Micron
+Summary(pl.UTF-8):	Sterownik obrazu X.org dla układów graficznych Rendition/Micron
 Name:		xorg-driver-video-rendition
 Version:	4.1.3
 Release:	1
