@@ -1,12 +1,12 @@
 Summary:	X.org video driver for Rendition/Micron video chips
 Summary(pl.UTF-8):	Sterownik obrazu X.org dla układów graficznych Rendition/Micron
 Name:		xorg-driver-video-rendition
-Version:	4.2.0
-Release:	5
+Version:	4.2.1
+Release:	1
 License:	MIT
 Group:		X11/Applications
 Source0:	http://xorg.freedesktop.org/releases/individual/driver/xf86-video-rendition-%{version}.tar.bz2
-# Source0-md5:	7c03de3804d4c4f6ff59f74050d24b2b
+# Source0-md5:	c6b49b99586cc0955295cb1ca93fcac7
 URL:		http://xorg.freedesktop.org/
 BuildRequires:	autoconf >= 2.57
 BuildRequires:	automake
