@@ -12,14 +12,15 @@ BuildRequires:	autoconf >= 2.57
 BuildRequires:	automake
 BuildRequires:	libtool
 BuildRequires:	pkgconfig >= 1:0.19
+BuildRequires:	rpmbuild(macros) >= 1.389
+BuildRequires:	xorg-lib-libpciaccess-devel >= 0.8.0
 BuildRequires:	xorg-proto-fontsproto-devel
 BuildRequires:	xorg-proto-randrproto-devel
 BuildRequires:	xorg-proto-renderproto-devel
 BuildRequires:	xorg-proto-xextproto-devel
-BuildRequires:	xorg-util-util-macros >= 0.99.2
+BuildRequires:	xorg-util-util-macros >= 1.3
 BuildRequires:	xorg-xserver-server-devel >= 1.0.99.901
-BuildRequires:  rpmbuild(macros) >= 1.389
-%requires_xorg_xserver_videodrv
+%{?requires_xorg_xserver_videodrv}
 Requires:	xorg-xserver-server >= 1.0.99.901
 Obsoletes:	X11-driver-rendition < 1:7.0.0
 Obsoletes:	XFree86-Rendition
@@ -47,8 +48,7 @@ V1000, Verite V2100, Verite V2200.
 %{__autoconf}
 %{__autoheader}
 %{__automake}
-%configure \
-	--disable-static
+%configure
 
 %{__make}
 
